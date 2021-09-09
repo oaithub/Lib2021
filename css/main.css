@@ -737,7 +737,7 @@ img.logo {
 #facebook,
 #instagram,
 #telegram,
-.fa-instagram {
+{
     transition: 0.3s;
 
 
@@ -755,7 +755,7 @@ img.logo {
     color: #3b5998;
 }
 
-#instagram:hover .fa-instagram {
+#instagram:hover{
     color: transparent;
     background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -788,6 +788,14 @@ img.logo {
 .card-text {
     font-size: 18px;
     font-weight: 500;
+}
+
+a {
+    color: #6c757d;
+}
+
+a:hover{
+    color: #28B463;
 }
 
 .card-text.text-muted {
