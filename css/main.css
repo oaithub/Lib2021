@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 body {
-    font-family: "Montserrat";
+    font-family: "Montserrat", serif;
 }
 
 /*Text style global*/
@@ -736,11 +736,9 @@ img.logo {
 #twitter,
 #facebook,
 #instagram,
-#telegram,
+#telegram
 {
     transition: 0.3s;
-
-
 }
 
 #youtube:hover {
@@ -1304,12 +1302,12 @@ a.text-white {
     .schedule+.container {
         max-width: 45% !important;
     }
-*/
+}*/
 
-}
+
 @media(min-width: 992px) and (max-width:1003px){
     .head-btn{
-        font-size:15.5px;
+        font-size:16px;
     }
 }
 @media (min-width:768px) and (max-width:1200px){
