@@ -190,7 +190,7 @@ img.logo {
 /*grid box*/
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(12, calc(100%/12));
+    grid-template-columns: repeat(8, calc(100%/12));
     grid-template-rows: repeat(9, 47px);
 
     gap: 10px;
@@ -1397,14 +1397,14 @@ a.text-white {
 
     .schedule,
     .schedule+.container {
-        max-width: 90% !important;
+        max-width: 100% !important;
         margin-right: 0 !important;
     }
 
 
 
     .dop-res {
-        max-width:90% !important;
+        max-width:100% !important;
         margin-right: 0 !important;
         margin-top: 0rem !important;
     }
@@ -1423,7 +1423,8 @@ a.text-white {
         margin-right: 0 !important;
     }
 }
-@media (min-width:1670px) {
+/*1670px*/
+@media (min-width:1400px) {
     .navigation, .dop-res, .schedule, .schedule+.container{
         max-width: 100% !important;
     }
@@ -1449,13 +1450,13 @@ a.text-white {
         padding-top: unset;
     }
     #moodle{
-        width: unset;
+        width: 80%;
     }
     #clayrite{
         width: 10em;
     }
     #qa{
-        width: unset;
+        width: 80%;
         height: unset;
     }
     #qa+span {
@@ -1466,7 +1467,7 @@ a.text-white {
         margin-top: 30px;
     }
     #springer{
-        width: unset;
+        width: 80%;
     }
     #springer+span {
         padding: 0 !important;
