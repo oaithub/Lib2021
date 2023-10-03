@@ -1207,14 +1207,17 @@ a.text-white {
         margin-top: 3rem !important;
 
     }
+	#navigation-wrapper .schedule, #navigation-wrapper .schedule+.container {
+        max-width: 100% !important;
 
+    }
 
     .schedule,
     .schedule+.container {
         max-width: 49% !important;
 
     }
-
+	
     .navbar>.container-fluid {
         padding-left: 3% !important;
     }
@@ -1317,11 +1320,15 @@ a.text-white {
     .dop-res{
         max-width: 48.5% !important;
     }
+	#navigation-wrapper .dop-res{
+        max-width: 100% !important;
+    }
     #navigation-wrapper{
         display:flex;
         flex-direction: row !important;
         justify-content: space-around;
         margin-top: 0 !important;
+		flex-wrap: wrap;
     }
 }
 @media(max-width:1400px){
@@ -1388,6 +1395,9 @@ a.text-white {
     .dop-res{
         max-width: 50% !important;
     }
+	#navigation-wrapper .dop-res{
+        max-width: 100% !important;
+    }
 }
 @media (min-width:1400px) {
 
@@ -1399,7 +1409,9 @@ a.text-white {
         margin-right: 0 !important;
     }
 
-
+	#navigation-wrapper .dop-res {
+        margin-top: 3rem!important
+    }
 
     .dop-res {
         max-width:100% !important;
